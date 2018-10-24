@@ -1,0 +1,27 @@
+//
+//  QRCodeScan.pch
+//  QRCodeScan
+//
+//  Created by ios2chen on 2018/10/24.
+//  Copyright © 2018年 Lfy. All rights reserved.
+//
+
+#ifndef QRCodeScan_pch
+#define QRCodeScan_pch
+
+#define UIScreen_Width [UIScreen mainScreen].bounds.size.width
+#define UIScreen_Height [UIScreen mainScreen].bounds.size.height
+#define UIScreen_StatusHeight [UIApplication sharedApplication].statusBarFrame.size.height
+#define BottomHeight ([UIScreen mainScreen].bounds.size.height==812? 34:0)
+
+#import <AVFoundation/AVFoundation.h>
+#import <Photos/Photos.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <CoreLocation/CoreLocation.h>
+#import <AddressBook/AddressBook.h>
+#import <Contacts/Contacts.h>
+#import <UserNotifications/UserNotifications.h>
+#import "DevelopmentUtil.h"
+
+
+#endif /* QRCodeScan_pch */
